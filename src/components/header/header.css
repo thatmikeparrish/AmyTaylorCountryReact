@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    color: #266499;
+    text-shadow: 
+        -1px -1px 0 wheat,
+        1px -1px 0 wheat,
+        -1px 1px 0 wheat,
+        1px 1px 0 wheat;
+}
+
+.logo {
+    background-image: url(./img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 40rem;
+}
+
+.amy {
+    background-image: url(./img//amy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 40rem;
+    border: 2px solid wheat;
+    border-radius: 60rem;
+}
