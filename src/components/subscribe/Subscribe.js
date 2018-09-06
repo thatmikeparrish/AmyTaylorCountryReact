@@ -6,7 +6,7 @@ export default class Subscribe  extends Component {
         return (
             <div className="subscribe">
                 <h1 className="title">Subscribe</h1>
-
+                <p>facebook, twitter, instagram, spotify, iTunes, google music</p>
                 </div>
         );
     }
