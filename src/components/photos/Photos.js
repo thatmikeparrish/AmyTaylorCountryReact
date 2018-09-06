@@ -7,6 +7,7 @@ export default class Photos  extends Component {
             <div className="photos">
                 <h1 className="title">Photos</h1>
                 
+                <div id="bio"></div>
             </div>
         );
     }

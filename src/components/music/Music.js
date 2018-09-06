@@ -25,6 +25,7 @@ export default class Music  extends Component {
                         />
                     </div>
                 </div>
+                <div id="photos"></div>
             </div>
         );
     }

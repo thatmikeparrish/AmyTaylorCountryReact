@@ -25,8 +25,9 @@ export default class Bio  extends Component {
 
                         <p>Keep reading!</p>
                     </div>
-                    <div className="amy"></div>
+                    <div className="amyBio"></div>
                 </div>
+                <div id="subscribe"></div>
             </div>
         );
     }

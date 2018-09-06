@@ -1,0 +1,14 @@
+{
+    "events": [
+        {
+            "title": "The Event!",
+            "date": "9/5/2018",
+            "location": "The Place",
+            "address": "123 Down the Road",
+            "city": "Some City",
+            "state": "TN",
+            "zipcode": "37130"
+        }
+    ],
+    "photos": []
+}

@@ -27,9 +27,9 @@
     background-image: url(./img/amy.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 29rem;
     height: 40rem;
-    width: 40rem;
+    width: 30rem;
     border: 2px solid wheat;
     border-radius: 60rem;
 }
