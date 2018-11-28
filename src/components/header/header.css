@@ -1,6 +1,7 @@
-.header{ 
-    margin: 5rem 0 5rem 0;
+.header {
+    margin: 5rem 0;
 }
+
 .title {
     text-align: center;
     color: #266499;
@@ -19,17 +20,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
-    width: 40rem;
+    height: 25rem;
+    width: 25rem;
+    margin: 0 auto;
 }
 
 .amy {
     background-image: url(./img/amy.jpg);
-    background-position: center;
+    background-position: top ;
     background-repeat: no-repeat;
-    background-size: 29rem;
-    height: 40rem;
-    width: 30rem;
+    background-size: cover;
+    width: 45%;
+    padding: 25rem 0 0 0;
     border: 2px solid wheat;
-    border-radius: 60rem;
+    border-radius: 5rem;
+}
+
+.tour {
+    text-align: center;
+    color: wheat;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    margin: 2rem 0 2rem 0;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: 'Rock Salt', cursive;
 }
