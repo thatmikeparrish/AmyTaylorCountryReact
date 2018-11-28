@@ -1,4 +1,4 @@
-const remoteURL = "http://localhost:8088"
+/* const remoteURL = "http://localhost:3000"
 
 export default Object.create(null, {
     get: {
@@ -54,4 +54,4 @@ export default Object.create(null, {
             }).then(e => e.json())
         }
     }
-})
+}) */

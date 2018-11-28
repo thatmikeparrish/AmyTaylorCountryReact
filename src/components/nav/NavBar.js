@@ -32,7 +32,6 @@ class NavBar extends Component {
                         </li>
                     </ul>
                 </nav>
-                <div id="top"></div>
             </React.Fragment>
         )
     }

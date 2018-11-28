@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import React, { Component } from 'react'
 import NavBar from "../nav/NavBar"
 import Header from "../header/Header"
@@ -13,7 +14,7 @@ import JSONManager from '../../modules/JSONManager';
 
 export default class AppBuilder extends Component {
 
-    state = {
+    /* state = {
         events: [],
         photos: []
     }
@@ -27,7 +28,7 @@ export default class AppBuilder extends Component {
             .then(() => {
                 this.setState(newState)
             })
-    }
+    } */
 
     render() {
         return (
@@ -35,11 +36,16 @@ export default class AppBuilder extends Component {
                 <div className="background"></div>
                 <div className="container scroller">
                     <NavBar />
+                    <div id="top"></div>
                     <Header />
-                    <News events={this.state.events} /> 
-                    <Music /> 
-                    <Photos /> 
+                    {/* <News events={this.state.events} /> */} 
+                    <div id="bio"></div>
                     <Bio /> 
+                    <div id="music"></div>
+                    <Music /> 
+                    <div id="photos"></div>
+                    <Photos /> 
+                    <div id="subscribe"></div>
                     <Subscribe /> 
                     <Footer />
                 </div>

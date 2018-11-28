@@ -13,7 +13,6 @@ export default class Header  extends Component {
                     <div className="logo"></div>
                     <div className="amy"></div>
                 </div>
-            <div id="news"></div>
             </div>
         );
     }

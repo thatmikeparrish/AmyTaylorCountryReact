@@ -8,8 +8,7 @@ export default class News  extends Component {
         return (
             <div className="news">
                 <h1 className="title">News</h1>
-                <NewsDeck {...this.props}/>            
-                <div id="music"></div>
+                {/* <NewsDeck {...this.props}/> */}
             </div>
         );
     }
