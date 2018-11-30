@@ -11,7 +11,7 @@ export default class Header extends Component {
                 <div className="amy">
                     <div className="logo"></div>
                 </div>
-                <ul className="">
+                <ul className="playDates">
                     <h1>Tour Dates</h1>
                     <li className="tour d-flex flex-row">
                         <div className="tourDate">
