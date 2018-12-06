@@ -37,14 +37,27 @@
 }
 
 .tour {
-    text-align: center;
     color: wheat;
     text-shadow: 
         -1px -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
-    margin: 2rem 0 2rem 0;
+    margin: 1.75rem 0 1.75rem 0;
     /* font-family: 'La Belle Aurore', cursive; */
     font-family: 'Rock Salt', cursive;
+}
+
+.playDates {
+    margin: 1.5rem 0;
+    list-style-type: none;
+}
+
+.tourDate {
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.tourInfo {
+    text-align: start;
 }

@@ -4,24 +4,77 @@ import "./header.css"
 import amy from './img/amy.jpg' */
 
 
-export default class Header  extends Component {
+export default class Header extends Component {
     render() {
         return (
             <div className="header d-flex flex-row justify-content-around" id="home">
                 <div className="amy">
                     <div className="logo"></div>
                 </div>
-                <ul className="tour">
-                    <li>
-                        <h4>The Spot</h4>
-                        <h6>Nashville, TN</h6>
-                        <h6>3/18/18 @ 5:30pm</h6>
-                        <p>blah blah blah abla blah blah balah</p>
+                <ul className="playDates">
+                    <li className="title">
+                        <h1>Tour Dates</h1>
                     </li>
-                    <li>Date 2</li>
-                    <li>Date 3</li>
-                    <li>Date 4</li>
-                    <li>Date 5</li>
+                    <li className="tour d-flex flex-row">
+                        <div className="tourDate">
+                            <h5>3/18/18</h5>
+                            <br />
+                            <h6>5:30pm</h6>
+                        </div>
+                        <div className="tourInfo">
+                            <h4>Nashville, TN</h4>
+                            <h5>The Spot</h5>
+                            <p>blah blah blah abla blah blah balah</p>
+                        </div>
+                    </li>
+                    <li className="tour d-flex flex-row">
+                        <div className="tourDate">
+                            <h5>3/18/18</h5>
+                            <br />
+                            <h6>5:30pm</h6>
+                        </div>
+                        <div className="tourInfo">
+                            <h4>Nashville, TN</h4>
+                            <h5>The Spot</h5>
+                            <p>blah blah blah abla blah blah balah</p>
+                        </div>
+                    </li>
+                    <li className="tour d-flex flex-row">
+                        <div className="tourDate">
+                            <h5>3/18/18</h5>
+                            <br />
+                            <h6>5:30pm</h6>
+                        </div>
+                        <div className="tourInfo">
+                            <h4>Nashville, TN</h4>
+                            <h5>The Spot</h5>
+                            <p>blah blah blah abla blah blah balah</p>
+                        </div>
+                    </li>
+                    <li className="tour d-flex flex-row">
+                        <div className="tourDate">
+                            <h5>3/18/18</h5>
+                            <br />
+                            <h6>5:30pm</h6>
+                        </div>
+                        <div className="tourInfo">
+                            <h4>Nashville, TN</h4>
+                            <h5>The Spot</h5>
+                            <p>blah blah blah abla blah blah balah</p>
+                        </div>
+                    </li>
+                    <li className="tour d-flex flex-row">
+                        <div className="tourDate">
+                            <h5>3/18/18</h5>
+                            <br />
+                            <h6>5:30pm</h6>
+                        </div>
+                        <div className="tourInfo">
+                            <h4>Nashville, TN</h4>
+                            <h5>The Spot</h5>
+                            <p>blah blah blah abla blah blah balah</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         );
