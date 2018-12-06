@@ -12,7 +12,9 @@ export default class Header extends Component {
                     <div className="logo"></div>
                 </div>
                 <ul className="playDates">
-                    <h1>Tour Dates</h1>
+                    <li className="title">
+                        <h1>Tour Dates</h1>
+                    </li>
                     <li className="tour d-flex flex-row">
                         <div className="tourDate">
                             <h5>3/18/18</h5>
