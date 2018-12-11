@@ -1,8 +1,12 @@
 .bioInfo {
     color: wheat;
-    width: 50rem;
-    height: 25rem;
+    width: 60rem;
     padding: 1.8rem 1.8rem 1.8rem 1.8rem;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .amyBio {
@@ -11,7 +15,9 @@
     background-repeat: no-repeat;
     background-size: 40rem;
     height: 25rem;
-    width: 40rem;
+    width: 45%;
     border: 2px solid wheat;
     border-radius: 60rem;
+    float: right;
+    margin: 0 0 1rem 2rem;
 }

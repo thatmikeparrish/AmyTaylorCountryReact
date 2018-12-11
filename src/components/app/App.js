@@ -1,36 +1,39 @@
+import { Route } from "../../../node_modules/react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 import React, { Component } from 'react'
-import NavBar from "../nav/NavBar"
-import Header from "../header/Header"
-import News from "../news/News"
-import Music from "../music/Music"
-import Photos from "../photos/Photos"
+
+import Home from "../home/Home"
 import Bio from "../bio/Bio"
-import Subscribe from "../subscribe/Subscribe"
+import Music from "../music/Music"
+import Store from "../store/Store"
+import Photos from "../photos/Photos"
 
-import './App.css'
-
-export default class AppBuilder extends Component {
+export default class App extends Component {
 
     render() {
         return (
             <React.Fragment>
-                <div className="background"></div>
-                <div className="container scroller">
-                    <NavBar />
-                    <div id="top"></div>
-                    <Header />
-                    <div id="news"></div>
-                    <News />
-                    <div id="music"></div>
-                    <Music /> 
-                    <div id="bio"></div>
-                    <Bio /> 
-                    <div id="photos"></div>
-                    <Photos /> 
-                    <div id="subscribe"></div>
-                    <Subscribe /> 
-                </div>
+
+                <Route path="/home" render={() => {
+                    return <Home />
+                }} />
+
+                <Route path="/bio" render={() => {
+                    return <Bio />
+                }} />
+
+                <Route path="/music" render={() => {
+                    return <Music />
+                }} />
+
+                <Route path="/store" render={() => {
+                    return <Store />
+                }} />
+
+                <Route path="/photos" render={() => {
+                    return <Photos />
+                }} />
+
             </React.Fragment>
         );
     }

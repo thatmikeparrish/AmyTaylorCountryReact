@@ -1,0 +1,23 @@
+.subscribe {
+    color: white;
+    margin: 0 0 3rem 0;
+}
+
+.line {
+    border-bottom: 3px solid #266499;
+    margin: 0 0 1rem 0;
+}
+
+.img {
+    margin: 1rem 0 0 0;
+    width: 2rem;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+}
+
+.boxBookings {
+    width: 30%;
+}

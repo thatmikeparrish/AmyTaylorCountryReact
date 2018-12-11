@@ -21,6 +21,19 @@ Main Blue
     background-color: rgba(0, 0, 0, .5);
     height: 100%;
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 5rem;
     z-index: 1;
+}
+
+.title {
+    text-align: center;
+    color: #266499;
+    text-shadow: 
+        -1px -1px 0 wheat,
+        1px -1px 0 wheat,
+        -1px 1px 0 wheat,
+        1px 1px 0 wheat;
+    margin: 2rem 0 2rem 0;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: 'Rock Salt', cursive;
 }
