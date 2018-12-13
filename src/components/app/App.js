@@ -14,23 +14,23 @@ export default class App extends Component {
         return (
             <React.Fragment>
 
-                <Route path="/home" render={() => {
+                <Route exact path="/" render={() => {
                     return <Home />
                 }} />
-
-                <Route path="/bio" render={() => {
+                
+                <Route exact path="/bio" render={() => {
                     return <Bio />
                 }} />
 
-                <Route path="/music" render={() => {
+                <Route exact path="/music" render={() => {
                     return <Music />
                 }} />
 
-                <Route path="/store" render={() => {
+                <Route exact path="/store" render={() => {
                     return <Store />
                 }} />
 
-                <Route path="/photos" render={() => {
+                <Route exact path="/photos" render={() => {
                     return <Photos />
                 }} />
 

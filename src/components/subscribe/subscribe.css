@@ -1,6 +1,6 @@
 .subscribe {
     color: white;
-    margin: 0 0 3rem 0;
+    margin: 5rem 0 3rem 0;
 }
 
 .line {
@@ -15,9 +15,9 @@
 
 .box {
     width: 30%;
-    text-align: center;
+    text-align: start;
 }
 
-.boxBookings {
-    width: 30%;
+.subscribeLogo {
+    width: 100%;
 }
