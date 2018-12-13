@@ -2,19 +2,6 @@
     margin: 5rem 0;
 }
 
-.title {
-    text-align: center;
-    color: #266499;
-    text-shadow: 
-        -1px -1px 0 wheat,
-        1px -1px 0 wheat,
-        -1px 1px 0 wheat,
-        1px 1px 0 wheat;
-    margin: 2rem 0 2rem 0;
-    /* font-family: 'La Belle Aurore', cursive; */
-    font-family: 'Rock Salt', cursive;
-}
-
 .logo {
     background-image: url(./img/logo.png);
     background-position: center;

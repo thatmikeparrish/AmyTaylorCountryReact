@@ -1,10 +1,14 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import React, { Component } from 'react'
-import "./store.css"
 
-import NavBar from '../nav/NavBar'
+import './home.css'
+
+import NavBar from "../nav/NavBar"
+import Header from "../header/Header"
+import News from "../news/News"
 import Subscribe from "../subscribe/Subscribe"
 
-export default class Store extends Component {
+export default class Home extends Component {
 
     render() {
         return (
@@ -12,10 +16,9 @@ export default class Store extends Component {
                 <NavBar />
                 <div className="background"></div>
                 <div className="container scroller">
-                    <div className="bio">
-                        <h1 className="title">Store</h1>
-                    </div>
-                    <Subscribe />
+                    <Header />
+                    <News />
+                    <Subscribe /> 
                 </div>
             </React.Fragment>
         );
