@@ -1,4 +1,35 @@
 .album {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin: .4rem 3rem 0 0;
+}
+
+.musicBox {
+    margin: 3rem 4rem 0 4rem;
+    color: wheat;
+    text-shadow: 
+        -.5px -.5px 0 #000,
+        .5px -.5px 0 #000,
+        -.5px .5px 0 #000,
+        .5px .5px 0 #000;
+}
+
+.musicTitle {
+    /* padding-left: 10rem; */
+    text-align: center;
+    color: wheat;
+    text-shadow: 
+        -.6px -.6px 0 black,
+        .6px -.6px 0 black,
+        -.6px .6px 0 black,
+        .6px .6px 0 black;
+    margin: 4rem 0 -1rem 0;
+    font-family: 'La Belle Aurore', cursive;
+    /* font-family: 'Rock Salt', cursive; */
+}
+
+.textbox {
+    background-color: #266499;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: 100%;
 }
