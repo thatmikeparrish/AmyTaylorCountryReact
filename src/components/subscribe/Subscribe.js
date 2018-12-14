@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import "./subscribe.css"
 
-import logo from '../header/img/logo.png'
-
 import facebook from './img/facebook.png'
 import twitter from './img/twitter.png'
 import instagram from './img/instagram.png'
@@ -16,8 +14,8 @@ export default class Subscribe extends Component {
                 <div className="d-flex justify-content-around">
                     <div className="box">
                         <h2 className="title line">Contact</h2>
-                        <ul className="list-unstyled">
-                            <li>Phone: (724)812-6795</li>
+                        <ul className="textbox list-unstyled">
+                            <li>Phone: (724) 812-6795</li>
                             <li>E-mail: amytaylorcountry@gmail.com</li>
                         </ul>
                     </div>

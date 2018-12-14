@@ -24,7 +24,7 @@ export default class Header extends Component {
                         <div className="tourInfo">
                             <h4>Nashville, TN</h4>
                             <h5>The Spot</h5>
-                            <p>blah blah blah abla blah blah balah</p>
+                            <p>blah blah blah blah blah blah blah</p>
                         </div>
                     </li>
                     <li className="tour d-flex flex-row">
@@ -36,7 +36,7 @@ export default class Header extends Component {
                         <div className="tourInfo">
                             <h4>Nashville, TN</h4>
                             <h5>The Spot</h5>
-                            <p>blah blah blah abla blah blah balah</p>
+                            <p>blah blah blah blah blah blah blah</p>
                         </div>
                     </li>
                     <li className="tour d-flex flex-row">
@@ -48,7 +48,7 @@ export default class Header extends Component {
                         <div className="tourInfo">
                             <h4>Nashville, TN</h4>
                             <h5>The Spot</h5>
-                            <p>blah blah blah abla blah blah balah</p>
+                            <p>blah blah blah blah blah blah blah</p>
                         </div>
                     </li>
                     <li className="tour d-flex flex-row">
@@ -60,7 +60,7 @@ export default class Header extends Component {
                         <div className="tourInfo">
                             <h4>Nashville, TN</h4>
                             <h5>The Spot</h5>
-                            <p>blah blah blah abla blah blah balah</p>
+                            <p>blah blah blah blah blah blah blah</p>
                         </div>
                     </li>
                     <li className="tour d-flex flex-row">
@@ -72,7 +72,7 @@ export default class Header extends Component {
                         <div className="tourInfo">
                             <h4>Nashville, TN</h4>
                             <h5>The Spot</h5>
-                            <p>blah blah blah abla blah blah balah</p>
+                            <p>blah blah blah blah blah blah blah</p>
                         </div>
                     </li>
                 </ul>
