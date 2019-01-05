@@ -1,8 +1,55 @@
-.newsCard {
-    margin: 1rem 1rem 6rem 1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 29rem;
-    height: 14rem;
-    width: 12rem;
+.cardDeck {
+    overflow: hidden;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.slide {
+   
+}
+
+.carousel-inner {
+    
+}
+
+.carousel-item {
+
+}
+
+.card {
+    border-color: wheat;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 25rem;
+    height: 29rem;
+    margin: 0 auto;
+
+}
+
+.card-img-top {
+    height: 20rem;
+}
+
+.card-body {
+    background-color: #266499;
+    color: wheat;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(75%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-75%)
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0%);
 }
