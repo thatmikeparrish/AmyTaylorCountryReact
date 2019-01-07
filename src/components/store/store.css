@@ -1,0 +1,22 @@
+.shopImg {
+    width: 10rem;
+    margin: 1rem 0 0 1rem;
+    border: 2px solid wheat;
+}
+
+.largeShopImg {
+    background-image: url(./img/Mix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    border: 2px solid wheat;
+}
+
+.largeShopImg:hover {
+    background-image: url(./img/Back.jpg);
+
+}
+
+.sales {
+    color: wheat;
+}
