@@ -22,22 +22,22 @@ export default class Subscribe extends Component {
                     <div className="box">
                     <h2 className="title line">Subscribe</h2>
                         <div className="d-flex flex-wrap justify-content-around">
-                            <a className="" href="">
+                            <a className="" href="https://www.facebook.com/amytaylorcountry/">
                                 <img className="img" alt="" src={facebook} />
                             </a>
-                            <a className="" href="">
+                            <a className="" href="https://twitter.com/ataylorcountry">
                                 <img className="img" alt="" src={twitter} />
                             </a>
-                            <a className="" href="">
+                            <a className="" href="https://www.instagram.com/amytaylorcountry/">
                                 <img className="img" alt="" src={instagram} />
                             </a>
-                            <a className="" href="">
+                            <a className="" href="https://open.spotify.com/artist/6VlEebnc4BQmYGAkIbdfU6?si=Tnpwen74Q5WXZKRA721lmQ">
                                 <img className="img" alt="" src={spotify} />
                             </a>
-                            <a className="" href="">
+                            <a className="" href="https://itunes.apple.com/album/id1241202375?ls=1&app=itunes">
                                 <img className="img" alt="" src={itunes} />
                             </a>
-                            <a className="" href="">
+                            <a className="" href="https://play.google.com/store/music/album/Amy_Taylor_Amy_Taylor?id=Bzzbkzkpbjddisykklm3eo2ncju">
                                 <img className="img" alt="" src={googlePlay} />
                             </a>
                         </div>
