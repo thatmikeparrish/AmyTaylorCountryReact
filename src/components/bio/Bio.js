@@ -15,7 +15,7 @@ export default class Bio extends Component {
                     <div className="bio">
                         <h1 className="title">Bio</h1>
                         <div className="d-flex justify-content-center">
-                            <div className="bioInfo">
+                            <div className="bioInfo textbox">
                                 <div className="amyBio justify"></div>
                                 <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Amy Taylor loves all types of music, as well as her love for all types of people, animals and, most of all, books. Finding inspiration from all melodies, but staying true to her voice so deeply rooted in country, bluegrass, and southern gospel. Amy's songwriting is nothing but three chords and her truth. Inspired by a young girl that reminded her so much of herself produced "Wallflower Beauty" and "Until You" shares her own personal love story with husband Chad. Every song she writes is a chapter from her story. Then with her seamless vocals she helps her audience feel every lyric.</p>
 

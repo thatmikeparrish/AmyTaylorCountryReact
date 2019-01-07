@@ -23,17 +23,16 @@
   transform: translateX(0%);
 }
 
-.card {
+.NewsCard {
     border-color: wheat;
     border-radius: 10%;
     overflow: hidden;
     width: 25rem;
     height: 29rem;
     margin: 0 auto;
-
 }
 
-.card-img-top {
+.cardImg {
     height: 20rem;
 }
 

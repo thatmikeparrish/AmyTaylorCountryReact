@@ -26,8 +26,8 @@ export default class News extends Component {
                     {/* <!-- The slideshow --> */}
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="card">
-                                <img class="card-img-top" src={tour20190119} alt="New tour date 1 19 2019" />
+                            <div class="card NewsCard">
+                                <img class="card-img-top cardImg" src={tour20190119} alt="New tour date 1 19 2019" />
                                 <div class="card-body">
                                     <h5 class="card-title">New tour date for 2019!</h5>
                                     <p class="card-text">Booked my first show for the new year! Look out Texas, I'm coming back! More info coming soon!</p>
@@ -35,8 +35,8 @@ export default class News extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="card">
-                                <img class="card-img-top" src={tour20181218} alt="New tour date 12 18 2018" />
+                            <div class="card NewsCard">
+                                <img class="card-img-top cardImg" src={tour20181218} alt="New tour date 12 18 2018" />
                                 <div class="card-body">
                                     <h5 class="card-title">New tour date for 2018!</h5>
                                     <p class="card-text">Sunday December 30th at Just Love Coffee Cafe on Music Row.</p>
@@ -44,8 +44,8 @@ export default class News extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="card">
-                                <img class="card-img-top" src={tour20181101} alt="New tour date 11 01 2018" />
+                            <div class="card NewsCard">
+                                <img class="card-img-top cardImg" src={tour20181101} alt="New tour date 11 01 2018" />
                                 <div class="card-body">
                                     <h5 class="card-title">Get ready Texas!</h5>
                                     <p class="card-text">Y'all asked for it! Here I come Texas!</p>
@@ -53,8 +53,8 @@ export default class News extends Component {
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="card">
-                                <img class="card-img-top" src={tour20181013} alt="New tour date 10 13 2018" />
+                            <div class="card NewsCard">
+                                <img class="card-img-top cardImg" src={tour20181013} alt="New tour date 10 13 2018" />
                                 <div class="card-body">
                                     <h5 class="card-title">New tour date for 2018!</h5>
                                     <p class="card-text">Gonna be a great weekend!!!!!!!! Here I come Indiana and Kentucky!</p>
